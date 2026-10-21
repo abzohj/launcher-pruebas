@@ -44,4 +44,3 @@ La propia práctica me sirvió para ver un punto importante: la clave de la API 
 
 - La fase de reconocimiento reúne muchísima información de una empresa solo a partir de fuentes públicas, lo que muestra el valor de reducir la huella expuesta.
 - Combinar varias técnicas (DNS, ASN, escaneo de puertos, enumeración cloud) en una sola herramienta con su base de datos facilita mucho el trabajo y deja un registro ordenado de cada análisis.
-- Toda la práctica se hizo con fines educativos y en un entorno controlado; estas técnicas solo deben aplicarse sobre sistemas propios o con autorización expresa.
