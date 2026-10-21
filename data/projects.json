@@ -8,9 +8,16 @@
       "description": "Captura de memoria con AVML y extracción de evidencias con Bulk Extractor."
     },
     {
-      "title": "Nombre del proyecto 2",
-      "post": "/blog/nombre-proyecto-2/",
-      "description": "Resumen de una línea del proyecto 2."
-    }
+      "title": "Analizador de cabeceras de correo electrónico",
+      "post": "/blog/analisis-cabeceras-correo/",
+      "url": "https://github.com/abzohj/ForensicHeaderEmail",
+      "description": "Herramienta propia para analizar la ruta, los tiempos y el riesgo de spam de un correo."
+    },
+    {
+     "title": "Herramienta web de footprinting",
+     "post": "/blog/herramienta-footprinting/",
+     "url": "https://github.com/abzohj/footprinting",
+     "description": "Aplicación en Python y Flask para automatizar el reconocimiento inicial de una empresa."
+   }
   ]
 }
