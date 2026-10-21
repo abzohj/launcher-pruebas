@@ -1,6 +1,15 @@
 {{ range hugo.Data.projects.list }}
 <h4>
-  <a href="{{ .url }}">{{- .title -}}</a>
+  {{ if .post }}
+  <a href="{{ .post }}">{{- .title -}}</a>
+  {{ else }}
+  {{- .title -}}
+  {{ end }}
+  {{ if .url }}
+  <a href="{{ .url }}" target="_blank" rel="noopener" title="Ver repositorio en GitHub" class="ms-2 text-base">
+    <i class="bi bi-github"></i>
+  </a>
+  {{ end }}
 </h4>
-<p class="markdownify indent-8 mb-2">{{- .description | markdownify -}}</p>
+<p class="markdownify pl-8 mb-2">{{- .description | markdownify -}}</p>
 {{ end }}

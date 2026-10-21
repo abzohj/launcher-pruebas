@@ -1,26 +1,16 @@
 {
-  "title": "Projects",
+  "title": "Proyectos",
   "icon": "bi bi-kanban",
   "list": [
     {
-      "title": "Project 1",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "Análisis forense de memoria RAM en Linux",
+      "post": "/blog/analisis-forense-memoria-linux/",
+      "description": "Captura de memoria con AVML y extracción de evidencias con Bulk Extractor."
     },
     {
-      "title": "Project 2",
-      "url": "#",
-      "description": "Description of the project"
-    },
-    {
-      "title": "Project 3",
-      "url": "#",
-      "description": "Description of the project"
-    },
-    {
-      "title": "Project 4",
-      "url": "#",
-      "description": "Description of the project"
+      "title": "Nombre del proyecto 2",
+      "post": "/blog/nombre-proyecto-2/",
+      "description": "Resumen de una línea del proyecto 2."
     }
   ]
 }

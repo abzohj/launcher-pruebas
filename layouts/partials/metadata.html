@@ -1,4 +1,4 @@
-<p class="mt-0 mb-0 text-sm">{{ .Date.Format "January 2, 2006" }}</p>
+<p class="mt-0 mb-0 text-sm">{{ .Date | time.Format ":date_long"  }}</p>
 <p class="mt-1 mb-0 text-sm">Reading Time: {{ .ReadingTime }} minutes</p>
 {{ $params := .Params }} {{ range $name, $value := .Site.Taxonomies }}
 {{ if index $params $name }}

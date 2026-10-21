@@ -3,7 +3,7 @@
 <div class="prose dark:prose-invert m-auto">
 <div class="mb-3">
   <h1 class="top-h1">{{- .Title -}}</h1>
-  <p class="mb-1">{{ .Date.Format "January 2, 2006" }}</p>
+  <p class="mb-1">{{ .Date | time.Format ":date_long" }}</p>
   <p>&mdash;</p>
 </div>
 <div class="content">

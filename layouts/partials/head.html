@@ -42,32 +42,40 @@
     const expandAccordion = (elem) => {
       const allPanels = Array.from(document.querySelectorAll(".panel"));
       const allAccordion = Array.from(document.querySelectorAll(".accordion"));
+      const resetSkillBars = () => {
+        Array.from(document.querySelectorAll("#skill-percent")).forEach((bar) => {
+          bar.style.width = "0";
+        });
+      };
 
       if (!elem.parentElement.classList.contains("active")) {
+        // Abrir la sección pulsada y cerrar las demás
         allAccordion.forEach((acc) => {
           acc.classList.remove("active");
         });
         elem.parentElement.classList.add("active");
-        allPanels.forEach(function (elem) {
-          elem.style.maxHeight = null;
+        allPanels.forEach(function (panel) {
+          panel.style.maxHeight = null;
         });
         let activePanel = elem.parentElement.nextElementSibling;
         if (
           activePanel.id != "skill-panel" &&
           document.querySelector("#skill-panel")
         ) {
-          let skillBars = Array.from(
-            document.querySelectorAll("#skill-percent"),
-          );
-          skillBars.forEach((elem) => {
-            elem.style.width = "0";
-          });
+          resetSkillBars();
         }
         activePanel.style.maxHeight = activePanel.scrollHeight + "px";
+      } else {
+        // Si ya estaba abierta, cerrarla
+        elem.parentElement.classList.remove("active");
+        let activePanel = elem.parentElement.nextElementSibling;
+        activePanel.style.maxHeight = null;
+        if (activePanel.id == "skill-panel") {
+          resetSkillBars();
+        }
       }
     };
   </script>
-
   <script>
     let html = document.querySelector("html");
     let theme = window.localStorage.getItem("theme");

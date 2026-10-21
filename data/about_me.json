@@ -1,8 +1,8 @@
 {
-  "title": "About **`aafu`**",
+  "title": "Sobre mi",
   "icon": "bi bi-person",
   "description": [
-    "This is a demo of the **`aafu`** theme. This theme has `light` and `dark` mode. You can switch between them using the toggle button in the top right corner. The theme is built using [Tailwind CSS](https://tailwindcss.com/) and is fully responsive. It uses [pagefind](https://pagefind.app/) for search functionality. You can use this theme for your personal website, portfolio, or blog. It is easy to customize and you can add your own content and style it as you like. This section also supports **markdown**.",
-    "You can add multiple items to the description array and they will be rendered as separate paragraphs."
+    "Estudiante de **Ingeniería de Software** en U-TAD, especializado en **Ciberseguridad**. Me apasiona entender el funcionamiento profundo de la tecnología y la seguridad en ella, ya sea desde el punto de vista defensivo y ofensivo, hasta el ecosistema IoT, telecomunicaciones y tecnologías emergentes.",
+    "Así mismo considero que la educación, divulgación e investigación en materia de ciberseguridad es muy importante, tanto desde el punto de vista técnico a la hora de compartir conocimientos, aprender y explorar nuevas soluciones, como desde el punto de vista en el que se forme a las nuevas generaciones y personal sin conocimientos técnicos, en la importancia de los sistemas informáticos seguros."
   ]
 }

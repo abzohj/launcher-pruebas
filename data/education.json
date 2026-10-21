@@ -1,25 +1,35 @@
 {
-  "title": "Education",
+  "title": "Educación",
   "icon": "bi bi-mortarboard",
   "list": [
     {
-      "degree": "Ph.D. in Subject",
-      "college": "University of State-City",
-      "dates": "2013 - 2018",
-      "thesis_title": "Effect of humans on other humans: a study of human behavior.",
-      "thesis_url": "#"
+      "degree": "Grado en Ingeniería del Software",
+      "college": "U-TAD. Centro Universitario del Arte Digital (adscrito a Universidad Camilo Jose Cela)",
+      "dates": "2025 - Actualmente", 
+      "details": [
+        "Mención en ciberseguridad",
+        "Habilidades: Bastionado, análisis de malware, hacking ético, movimiento lateral, persistencia, Kotlin, Node.js, Firebase, análisis forense."
+      ]
+
+    },
+        {
+      "degree": "Grado en Ingeniería del Software",
+      "college": "Universidad Pontificia de Salamanca",
+      "dates": "2019 - 2024", 
+      "details": [
+        "Mención en redes y sistemas",
+        "Habilidades: C, Java, PHP, R, administración de redes, metodologías ágiles, SCRUM, JavaScript, SQL"
+      ]
+
     },
     {
-      "degree": "M.S. in Subject",
-      "college": "University of State-City",
-      "dates": "2013 - 2018",
-      "thesis_title": "Effect of humans on other humans: a study of human behavior.",
-      "thesis_url": "#"
-    },
-    {
-      "degree": "B.S. in Subject",
-      "college": "University of State-City",
-      "dates": "2004 - 2009"
+      "degree": "CFGS en Administración de Sistemas informáticos en red",
+      "college": "CIFP - Ponferrada",
+      "dates": "2017 - 2019",
+       "details": [
+
+        "Habilidades: Administración de sistemas Windows y Linux, planificación y adminsitración de redes, sistemas gestores de bases de datos, servicios de red e internet"
+      ]
     }
   ]
 }

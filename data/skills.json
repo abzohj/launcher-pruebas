@@ -4,16 +4,24 @@
   "icon": "bi bi-list-check",
   "list": [
     {
-      "skill": "Skill 1, Skill 2",
-      "skillrating": 90
-    },
-    {
-      "skill": "Skill 3",
+      "skill": "Python, Java, C, JavaScript",
       "skillrating": 80
     },
     {
-      "skill": "Skill 4",
-      "skillrating": 50
+      "skill": "Windows, Linux, Kali Linux",
+      "skillrating": 85
+    },
+    {
+      "skill": "Ingles",
+      "skillrating": 65
+    },
+    {
+      "skill": "Portugues",
+      "skillrating": 45
+    },
+    {
+      "skill": "Trabajo en equipo, organización, atención al cliente, trabajo bajo presión",
+      "skillrating": 85
     }
   ]
 }

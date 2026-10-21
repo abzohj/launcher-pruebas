@@ -1,19 +1,28 @@
 {{ range hugo.Data.education.list }}
 
 <h4 style="text-decoration: underline;">{{ .degree }}</h4>
-<p {{ if .thesis_title }}class="mb-0" {{ end }}>
+<p {{ if or .thesis_title .details }}class="mb-0" {{ end }}>
   {{- .dates }} &middot; {{ .college -}}
 </p>
 {{ if .thesis_title }}
 {{ if .thesis_url }}
-<p class="ms-2">
+<p class="ms-2 {{ if .details }}mb-0{{ end }}">
   Thesis:
   <a href="{{ .thesis_url }}"><i>{{ .thesis_title }}</i></a>
 </p>
 {{ else }}
-<p>
+<p {{ if .details }}class="mb-0"{{ end }}>
   Thesis: <i>{{ .thesis_title }}</i>
 </p>
 {{ end }}
 {{ end }}
+
+{{ if .details }}
+<ul class="my-2 ms-4 prose prose-stone dark:prose-invert max-w-none list-disc list-outside pl-6">
+  {{ range .details }}
+  <li class="marker:text-gray-700 dark:marker:text-gray-200">{{ . | markdownify }}</li>
+  {{ end }}
+</ul>
+{{ end }}
+
 {{ end }}

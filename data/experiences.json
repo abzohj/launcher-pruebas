@@ -1,27 +1,43 @@
 {
-  "title": "Experiences",
+  "title": "Experiencia profesional",
   "icon": "bi bi-briefcase",
   "list": [{
-      "position": "Job Title",
-      "dates": "2022 - *Present*",
-      "url": "#",
-      "company": "Company Name"
-    },
-    {
-      "position": "Job Title",
-      "dates": "2019 - 2022",
-      "company": "Company Name",
+      "position": "Soporte informático a pequeñas empresas",
+      "dates": "2022 - *Actualmente*",
+      "company": "Profesional independiente",
       "details": [
-        "Printed from desktop. Sent [emails](#). Called people *using* telephone.",
-        "Drank water from office cooler.",
-        "Ate donuts on people's birthdays."
+        "Diseño y planifiación de redes para diferentes locales adaptando las soluciones a cada entorno",
+        "Migración de equipos y sistemas",
+        "Implementación de sistemas de ventas informatizado",
+        "Soporte técnico continuado y resolución de incidencias"
       ]
     },
     {
-      "position": "Job Title",
-      "dates": "2018 - 2019",
-      "url": "#",
-      "company": "Company Name"
+      "position": "Tecnico CAU - N1",
+      "dates": "2019 - 2020",
+      "company": "ViewNext",
+      "details": [
+        "Administración del sistema informático de Carrefour España en el entorno de **AS400**"
+      ]
+    },
+    {
+      "position": "Prácticas profesionales",
+      "dates": "03/2019 - 06/2020",
+      "company": "Central Nuclear de Almaraz",
+      "details": [
+        "Prácticas profesionales en un entorno industrial correspondientes al CFGS de ASIR",
+        "Desarrollo de aplicaciones mediante VisualBasic",
+        "Plataformado de equipos",
+        "Participación en la identificación de una vulnerabilidad que no era detectada por la solución DLP de McAfee"
+      ]
+    },
+    {
+      "position": "Atención al cliente",
+      "dates": "2015 - 2017",
+      "company": "Xfera Móviles, Yoigo",
+      "details": [
+        "Atención al cliente y resolución de incidencias para usuarios particulares dentro de la compañía Yoigo"
+      ]
     }
   ]
 }

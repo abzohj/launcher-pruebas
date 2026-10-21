@@ -1,26 +1,25 @@
-baseURL: /
-locale: en-us
+baseURL: https://www.alvaropquiroga.com/
+locale: es-es
 build:
   writeStats: true
-title: aafu theme
-# Uncomment below to use aafu as hugo theme. See instructions in README.md
-# theme: aafu
+title: Alvaro P. Quiroga
+
+
 
 params:
-  author: Darshan Baral
-  description: Website title
-  copyright: powered by [hugo](https://gohugo.io/)
+  author: Alvaro P. Quiroga
+  description: Portfolio y blog de Alvaro P. Quiroga
   theme:
     mainTheme: dark
     showAttribute: true
     singlePage: false
   accordion:
     - item: about_me
-      expand: true # only the first `expand: true` will take effect
     - item: experiences
+    - item: otra_experiencia
     - item: education
-    - item: publications
     - item: projects
+    - item: voluntariado
     - item: skills
       panel_id: skill-panel
     - item: hobbies
